@@ -6,14 +6,14 @@
 > 6. Publish and include this repo in your Codewar Gallery
 
 
-# [<challenge name>](https://www.codewars.com/kata/<challenge name>)
+# [String Reverse](https://www.codewars.com/kata/reversed-strings)
 
-Explain the challenge as completely as you can.
+// copy challenge from code wars here (the problem description
 
-<function name>: Function
-* Args: (how many args does this function take?)
-  * (List each arg, it's type, and it's purpose)
-* Return: (what type does this function return?)
+stringReverse: Function
+* Args:
+  * string
+* Return: string
   * (Describe the return value)
 * Behavior: (What does this function do?)
 
