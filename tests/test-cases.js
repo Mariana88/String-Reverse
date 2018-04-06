@@ -7,30 +7,4 @@ tests({
   },
   '': function() {
     eq("", solution(""));
-  },
-  '': function() {
-    eq("", solution(""));
-  },
-  '': function() {
-    eq("", solution(""));
-  },
-  '' function() {
-    eq("", solution(""));
-  },
-  '': function() {
-    eq("", solution(""));
-  },
-  '': function() {
-    eq("", solution(""));
-  },
-  '': function() {
-    eq("", solution(""));
-  },
-  '': function() {
-    eq("", solution(""));
-  },
-  '' function() {
-    eq("", solution(""));
   }
-
-});
