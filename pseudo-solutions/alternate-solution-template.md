@@ -1,6 +1,6 @@
 # Alternate Solution 1 
 ```
-pseudocode solution goes here
+use a native method
 ```
 ---
 
