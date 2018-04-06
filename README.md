@@ -38,10 +38,14 @@ stringReverse: Function
 - strings with a space in between
 
 * Input classification:
-- only classification that matters is the fact that input is a STRING
+- String with odd ammount of characters
+- Strings with even amount of characters
 
 * Some Working strings:
-- blabla
+- blabla (repeated string)
+- racecar , lol (mirroed string)
+- seven (odd string)
+- 
 
 [TOP](#index)
 
