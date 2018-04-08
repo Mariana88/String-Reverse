@@ -1,18 +1,22 @@
 # Alternate Solution 1 
 ```
-use a native method
+stringReverse (string)
+i <- length string - 1
+while (i >= 0)
+  reversedString += string[i]
 ```
 ---
 
 ### Solution Explained:
 
-Explain this solution.  Be sure to compare and contrast it to your other solutions, as well as the other people's solutions you studied.
+Iterates the string from the end to the beginning writing the characters to a new reversed string one by one, until the first character is reached.
 
 ___
 
 ### Language Feature:
 
-Explain the language features you used.
+string.length
+while loop
 
 ___
 ___
