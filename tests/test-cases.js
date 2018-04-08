@@ -13,5 +13,5 @@ tests({
   },
     'repeatedString': function() {
     eq("blabla", stringReverse ("albalb"));
-    }
+    },
   )}
