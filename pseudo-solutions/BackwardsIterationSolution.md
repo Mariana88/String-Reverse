@@ -2,7 +2,7 @@
 ```
 stringReverse (string)
 i <- length string - 1
-while (i >= 0)
+for (as long as i >= 0; i--)
   reversedString += string[i]
 ```
 ---
@@ -16,7 +16,7 @@ ___
 ### Language Feature:
 
 string.length
-while loop
+for loop
 
 ___
 ___
