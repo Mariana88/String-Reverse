@@ -8,15 +8,14 @@
 
 # [String Reverse](https://www.codewars.com/kata/reversed-strings)
 
-// copy challenge from code wars here (the problem description
+Complete the solution so that it reverses the string value passed into it.
 
 stringReverse: Function
 * Args:
   * string
 * Return: string
-  * (Describe the return value)
-* Behavior: (What does this function do?)
-
+  * A string with the same characters as the input string but in the opposite order.
+* Behavior: Inverts the order of the characters in a string and returns the reversed string.
 
 ### Index
 * [Solution Process](#solution-process)
@@ -31,21 +30,26 @@ stringReverse: Function
 ## Solution Process
 
 * Things that can be measured:
-- lenght of the string  
-- if lenght is odd or even
+- lenght of the string    
+- if lenght is odd or even  
 
 * Relevant Inputs I might receive:
-- strings with a space in between
+- strings with an even amount of characters  
+- strings with an odd amount of characters  
 
 * Input classification:
-- String with odd ammount of characters
-- Strings with even amount of characters
+- Even string
+- Odd String
 
 * Some Working strings:
-- blabla (repeated string)
-- racecar , lol (mirroed string)
+- blabla (even string, repeated string)  
+- racecar , lol (mirroed string) 
 - seven (odd string)
-- 
+
+* Strategies considered:
+- Break the string into an array of characters, store the order of characters, then reconstruct string in inverse order (see pseudo code)
+- Iterate to swap characters in the string starting simultaneously from the end to the beginning and from beginning to end, untill the middle of the word is reached. (This is the implemented solution!)
+- Use the () memory device in regular expressions to remember the characters and fully reconstruct the string in the reversed order
 
 [TOP](#index)
 
@@ -53,34 +57,31 @@ stringReverse: Function
 
 ## Solution Explanation
 
-Explain your solution in detail, however works for you.  Perhaps by using a specific input to illustrate, by listing the strategies you used, or by including a diagram [directly from Sketchboard.io](https://sketchboard.io/blog/2014/03/06/github-sketchboard.html).
+This solution uses the strategy to divide the input/output strings intwo separate parts, a beginning and an end. An iterative process is used to construct step by step these two separate parts, in the inverse order as the input string. The output reversed string is then formed by concatenating the end part with the beginning part.
 
 [TOP](#index)
 
 ---
 
 ## Constraints
-
-List and explain the constraints you placed on your solution.
-
+* Not to use an array or an object 
+* Not to create a separate for loop for odd and even numbers  
 
 [TOP](#index)
 ___
 
 ## Language Features
 
-List the language features used in your solution.
+- string.length method
+- for loop
+- if statement
 
-The focus of these exercises are to strengthen you problem solving skills, not to learn the newest ES6 tricks. When you have the choice between to different language features it is better to choose the option that is easiest to read, most common, or most consistent with the rest of your solution.  
-
-Keeping track of the language features you use will enable you separate the problem solving strategy from the implementation.  Being aware of this difference will be an asset later on when you're faced with larger applications and popular frameworks.
 
 [TOP](#index)
 
 ---
 ## Uses
-
-List some applications or use cases for your solution.  Try for 3-5.
+* adapting input to standards (e.g. first name/last name , stret/city Vs. city/street etc)
 
 
 [TOP](#index)
@@ -90,28 +91,24 @@ List some applications or use cases for your solution.  Try for 3-5.
 ## Learning Journal
 
 Things I learned studying this problem:
-* 
-*
-*
+* Strings are immutable objects
+ * Manipulation of strings can be done by the methods of the String object (using these methods immediately converts a string into an object where every character in the string is a property), or by the RegExp (regular expression) object methods.
+* Use of Regular Expressions in javascrit
+* A best practice principle to be followed is that of "immutable data": create new data points instead of manipulating the input data within your code.
 *
 
 New vocabulary:
-* 
-* 
-*
-*
+* regex (aka Regular expression)  
+* word boundary (\b)
+
 
 Things I struggled with:
-* 
-* 
-* 
-* 
+* While loop construction which generates 1000+ extra steps. Need to understand better how execution works and why this happens.
+
 
 My study goals and stragegies:
-* 
-* 
-* 
-*
+* Learn more about Regular Expressions
+
 
 
 [TOP](#index)
