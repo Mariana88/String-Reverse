@@ -1,6 +1,6 @@
 // Your code here
 
-function solution(string){
+function stringReverse(string){
   let beg = "";
   let end = "";
   let reversedStr= "";
@@ -16,8 +16,6 @@ function solution(string){
 	    }
 	  return reversedStr;
 }
-
-solution("blabla");
 
 
 
