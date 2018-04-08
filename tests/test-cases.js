@@ -11,6 +11,6 @@ tests({
     'mirrorString': function() {
     eq("racecar", stringReverse ("racecar"));
   },
-    'reoeatedString': function() {
+    'repeatedString': function() {
     eq("blabla", stringReverse ("albalb"));
-  },
+  }
