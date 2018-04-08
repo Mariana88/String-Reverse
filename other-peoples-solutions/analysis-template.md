@@ -1,34 +1,29 @@
-# [<username>](https://www.codewars.com/users/<username>)'s Solution
+# 4522 warriors Solution
 
 ```js
-// copy-paste their solution here
+function solution(str){
+  return str.split('').reverse().join('');  
+}
 ```
 
 ---
 
 ## Solution Explanation
 
-Explain the solution they used.  Was it heavy in logic or languge features? What strategies did they use?  How is it like and unlike others?
-
 ---
 
 ## Language Features
-
-What language features did they use?
+String and array methods .split , .reverse and .join
 
 ---
 
 ## Notes
 
 What you learned from this solution:
-*
-*
-*
+* That different methods can be grouped intoone single line and will be executed from left to right.
 
 What you still don't understand:
-*
-*
-*
+
 
 ___
 ___
