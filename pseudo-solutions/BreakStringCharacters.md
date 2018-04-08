@@ -1,18 +1,23 @@
 # Alternate Solution 1 
 ```
-break string into characters, store the order of characters, reverse order, reconstruct reverse string
+stringReverse (string)
+  arr <- string.split
+  reverseArr <- arr.reverse
+  reverseStr = reverseArr.join
+  return reverseArr
 ```
 ---
 
 ### Solution Explained:
 
-Explain this solution.  Be sure to compare and contrast it to your other solutions, as well as the other people's solutions you studied.
+Splits the characters of the input string into an array, reverses the array, then creates a new reversed string by transfirming the reversed array into a string.
 
 ___
 
 ### Language Feature:
 
-Explain the language features you used.
+String metids: .split
+Array methods: .reverse and .join
 
 ___
 ___
